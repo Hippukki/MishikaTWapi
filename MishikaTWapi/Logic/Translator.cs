@@ -12,7 +12,7 @@ namespace MishikaTWapi.Logic
 
         public Translator(HttpClient httpClient)
         {
-            httpClient.DefaultRequestHeaders.Add("Authorization", "Api-Key AQVN16isxXDQXVL53n4pbHGuFtDc1RFFCZw0zf-N");
+            httpClient.DefaultRequestHeaders.Add("Authorization", "Api-Key Not so fast, scoundrel!");
             this.httpClient = httpClient;
         }
 

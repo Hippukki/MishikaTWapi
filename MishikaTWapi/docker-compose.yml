@@ -1,0 +1,13 @@
+﻿version: '3.4'
+
+services:
+  #Api  Service
+  api:
+    build:
+      context: .
+      #Use the DockerFile in that Directory
+      dockerfile: Dockerfile
+    #Map port 8888 in the docker container to port 80 in the Api
+    ports:
+      - "80:5000"
+    restart: always
